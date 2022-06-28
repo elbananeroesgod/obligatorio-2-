@@ -292,4 +292,10 @@ header{
         background: rgba(255, 255, 255, 0.2);
     }
 }
-
+body::-webkit-scrollbar{
+    width:0.35vw;
+  }
+  body::-webkit-scrollbar-thumb{
+    background:rgb(192, 42, 42);
+    border-radius: 0.50vw ;
+  }
